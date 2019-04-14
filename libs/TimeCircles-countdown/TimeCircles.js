@@ -711,22 +711,22 @@
         time: {
             Days: {
                 show: true,
-                text: "Days",
+                text: "Giorni",
                 color: "#FC6"
             },
             Hours: {
                 show: true,
-                text: "Hours",
+                text: "Ore",
                 color: "#9CF"
             },
             Minutes: {
                 show: true,
-                text: "Minutes",
+                text: "Minuti",
                 color: "#BFB"
             },
             Seconds: {
                 show: true,
-                text: "Seconds",
+                text: "Secondi",
                 color: "#F99"
             }
         }
