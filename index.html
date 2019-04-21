@@ -63,7 +63,7 @@
     <!-- START SECTION: home -->
     <section id="home" data-stellar-background-ratio="0.5">
         <div class="container">
-            <div class="row">
+            <div class="row">           
                 <div class="col-xs-12">
                     <h3 class="title"><span></span>Ci sposiamo!<span></span></h3>
                     <ul class="names">
@@ -74,16 +74,21 @@
                     <div class="date">3 Agosto 2019</div>
                     <div class="hour">17:30 Cerimonia</div>
                     <div class="place">
-                        <h3>Chiesa di Santa Maria delle Grazie</h3>
-                        <p>Piazza Libertà, 73012 Campi Salentina LE</p>
+                        <h3>Chiesa Santa Maria delle Grazie</h3>
+                        <p>Piazza Libertà, 73012 Campi Salentina (LE)</p>
                     </div>
                     <div class="divider"></div>
                     <div class="hour">20:00 Ricevimento</div>
                     <div class="place">
                         <h3>Masseria San Lorenzo</h3>
-                        <p>Via Flora Francesco, 1, 73100 Lecce LE</p>
+                        <p>Via Flora Francesco, 1, 73100 Lecce</p>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-3"></div>
+            </div>
             </div>
         </div>
     </section>
@@ -167,8 +172,8 @@
                   <div class="title-block">
                       <h1>Dove <span><em>ci sposiamo</em></span></h1>
                       <div class="divider"></div>
-                      <p><span class="fas fa-map-marked"></span> <em><strong>Cerimonia</strong>: Chiesa di Santa Maria delle Grazie. Piazza Libertà, 73012 Campi Salentina LE </em></p>
-                      <p><span class="fas fa-map-marked"></span> <em><strong>Ricevimento</strong>: Masseria San Lorenzo. Via Flora Francesco, 1, 73100 Lecce LE</em></p>
+                      <p><span class="fas fa-map-marked"></span> <em><strong>Cerimonia</strong>: Chiesa Santa Maria delle Grazie. Piazza Libertà, 73012 Campi Salentina (LE) </em></p>
+                      <p><span class="fas fa-map-marked"></span> <em><strong>Ricevimento</strong>: Masseria San Lorenzo. Via Flora Francesco, 1, 73100 Lecce</em></p>
                       <p><em>(usa la mappa per avere informazioni e indicazioni stradali)</em></p>
                   </div>
               </div>
@@ -261,33 +266,35 @@
                         <!-- <p><em>La vostra partecipazione al nostro matrimonio è il miglior regalo che possiate farci, </em></p>
                         <p><em>ma se volete accompagnarci all'inizio della nostra vita insieme scorrete le immagini per capire come fare</em></ -->
                         <p><span class="fas fa-piggy-bank"></span> <em><strong>Iban</strong>: IT06X0200804810000420147288</em></p>
-                        <p><span class="fas fa-signature"></span> <em><strong>Intestazione</strong>: USAI FRANCESCO, APRILE MARIANGELA</em></p>
-
+                        <p><span class="fas fa-signature"></span> <em><strong>Int.</strong>: USAI FRANCESCO, APRILE MARIANGELA</em></p>
+                        <p><span class="fas fa-align-justify"></span> <em><strong>Causale</strong>: LUNA DI MIELE</em></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row gallery-popup">
-
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gallery-family">
-                    <a href="img/lista/honeymoon.jpg" class="mfp-image" 
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8">
+                    <a href="img/lista/honeymoon.jpg"   
                         title="Causale: LUNA DI MIELE">
-                        <img src="img/lista/honeymoon.jpg" class="img-responsive" alt="LUNA DI MIELE">
+                        <img src="img/lista/honeymoon.jpg" alt="LUNA DI MIELE" class="img-lista">
                     </a>
                 </div>
+                <div class="col-xs-2"></div>
 
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gallery-family">
+                <!-- <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gallery-family">
                     <a href="img/lista/lista-servizio.jpg" class="mfp-image" 
                         title="Causale: SERVIZIO">
                         <img src="img/lista/lista-servizio.jpg" class="img-responsive" alt="SERVIZIO">
                     </a>
-                </div>
+                </div> -->
 
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gallery-friends">
+                <!-- <div class="gallery_product col-lg-6 col-md-6 col-sm-4 col-xs-4 filter gallery-friends">
                     <a href="img/lista/elettrodomestici.png" class="mfp-image" 
                     title="Causale: ELETTRODOMESTICI">
                         <img src="img/lista/elettrodomestici.png" class="img-responsive" alt="ELETTRODOMESTICI">
                     </a>
-                </div>                
+                </div>                 -->
             </div>
         </div>
     </section>
@@ -307,20 +314,19 @@
                 </div>
                 <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
 
-                    <form id="ajaxForm" data-toggle="validator">
+                <form action="https://formspree.io/fr.usai1@gmail.com" method="POST" id="ajaxForm" data-toggle="validator">
                         <div class="row bot-mrg-20">
-                            <div class="col-md-1 text-center"></div>
-                            
+                            <div class="col-md-1 text-center"></div>                            
                             <div class="col-md-4 text-center">
-                                <input type="checkbox" id="checkbox-1" name="Cerimonia" value="Cerimonia">
-                                <label for="checkbox-1" class="checkbox-button"><i class="fa fa-circle-o" aria-hidden="true"></i> Cerimonia</label>
-                                <p>Chiesa di Santa Maria delle Grazie. </br> Piazza Libertà, </br> 73012 Campi Salentina LE </p>
+                                <input type="checkbox" id="checkbox-1" name="events[]" value="Ceremony">
+                                <label for="checkbox-1" class="checkbox-button"><i class="far fa-circle" aria-hidden="true"></i> Cerimonia</label>
+                                <p>Chiesa Santa Maria delle Grazie. </br> Piazza Libertà, </br> 73012 Campi Salentina LE </p>
                             </div>
                             <div class="col-md-2 text-center"></div>
                             
                             <div class="col-md-4 text-center">
-                                <input type="checkbox" id="checkbox-2" name="Ricevimento" value="Ricevimento">
-                                <label for="checkbox-2" class="checkbox-button"><i class="fa fa-circle-o" aria-hidden="true"></i> Ricevimento</label>
+                                <input type="checkbox" id="checkbox-2" name="events[]" value="Party">
+                                <label for="checkbox-2" class="checkbox-button"><i class="far fa-circle" aria-hidden="true"></i> Ricevimento</label>
                                 <p>Masseria San Lorenzo. </br> Via Flora Francesco, 1 </br> 73100 Lecce LE</p>
                             </div>
                             <div class="col-md-1 text-center"></div>
@@ -349,7 +355,7 @@
                         </div>
                     </form>
 
-                    <button class="btn btn-primary btn-lg" id="ajaxFormSubmit">Ci sarò!</button>
+                    <button class="btn btn-primary btn-lg" type="submit">Ci sarò!</button>
                 </div>
             </div>
         </div>

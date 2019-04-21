@@ -137,6 +137,10 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 	border:4px solid #FFF;
 }
 
+.img-lista{
+	width: 100%
+}
+
 /*Section General*/
 section{
 	padding:80px 0px;
@@ -723,7 +727,7 @@ a.mfp-image:hover{
 #ajaxForm input[type="checkbox"]:checked + label.checkbox-button {
     color: #f9667e;
 }
-input[type="checkbox"]:checked + label.checkbox-button i.fa::before {
+input[type="checkbox"]:checked + label.checkbox-button i.far::before {
     content: "\f058";
 }
 
