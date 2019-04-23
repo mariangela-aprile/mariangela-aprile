@@ -418,7 +418,7 @@ section#frase i{
 	width: 46%;
 	float: left;
 	border-radius: 2px;
-	padding: 20px 20px 50px 20px;
+	padding: 10px 10px 15px 10px;
 	position: relative;
 	background: transparent;
 	border: 3px solid #ededed;
@@ -497,7 +497,7 @@ section#frase i{
     left: 45%;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
-	padding: 20px 20px 50px 20px;
+	padding: 10px 10px 15px 10px;
 	position:absolute;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -560,7 +560,7 @@ section#frase i{
     margin-bottom: 0;
 }
 .timeline-body img{
-	margin:30px auto;
+	margin:10px auto;
 }
 
 .timeline-body > p + p {
